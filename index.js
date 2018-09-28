@@ -73,6 +73,8 @@ console.log(newUnits); // Log for debugging
 
 var ended = false; // To track if the battle has ended
 
+var attacker = false; // To track who wins (True = Attacker, False = Defender)
+
 var totalAAttack = newUnits[0].attack * newUnits[0].amount;     // Total Attackers Attack
 var totalAHealth = newUnits[0].health * newUnits[0].amount;     // Total Attackers Health
 var totalDHealth = enemyUnits[0].health * enemyUnits[0].amount; // Total Defenders Health
@@ -100,6 +102,7 @@ while(!ended){ // While the Battle is ongoing
             }else{ // If the Defender has no units left, they've lost
 
                 console.log("Ending. Attackers Win!");
+                attacker = true;
                 ended = true; // End the battle
                 continue;
 
@@ -117,6 +120,7 @@ while(!ended){ // While the Battle is ongoing
             }else{ // If the Defender has no units left, they've lost
 
                 console.log("Ending. Attackers Win!");
+                attacker = true;
                 ended = true; // End the battle
                 continue;
 
@@ -143,6 +147,7 @@ while(!ended){ // While the Battle is ongoing
             }else{ // If the attacker has no units left, they've lost
 
                 console.log("Ending. Defenders Win!");
+                attacker = false;
                 ended = true; // End the battle
                 continue;
 
@@ -160,6 +165,7 @@ while(!ended){ // While the Battle is ongoing
             }else{ // If the attacker has no units left, they've lost
 
                 console.log("Ending. Defenders Win!");
+                attacker = false;
                 ended = true; // End the battle
                 continue;
 
@@ -183,3 +189,43 @@ while(!ended){ // While the Battle is ongoing
 }
 
 /* POST BATTLE */
+
+if(attacker){
+
+    var prizes = require('./prizes.js').prizes;
+
+    var loot_table = [];
+    var loot_counter = 0;
+
+    for (var prize in prizes){
+
+        if(!prizes.hasOwnProperty(prize)) continue;
+        var p = prizes[prize];
+
+        // console.log("Prize: " + p.name);
+
+        for (var i = 0; i < p.dropRate; i++){
+
+            loot_table[loot_counter] = p.name;
+
+            loot_counter++;
+
+        }
+
+    }
+
+    console.log(loot_table);
+
+    var finalPrize = loot_table[Math.round(Math.random() * loot_table.length - 1)];
+
+    console.log("Winner: Attacker.");
+    console.log(`Drops: ${finalPrize}`);
+    console.log(`Resources: Cash: ${Math.round(Math.random() * 1000)} | Food: ${Math.round(Math.random() * 1000)} | Steel: ${Math.round(Math.random() * 1000)} | Cement: ${Math.round(Math.random() * 1000)}`);
+
+}else{
+
+    console.log("Winner: Defender.");
+    console.log("Drops: None.");
+    console.log("Resources: Cash: 0 | Food: 0 | Steel: 0 | Cement: 0");
+
+}

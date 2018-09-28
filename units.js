@@ -29,7 +29,7 @@ exports.dunits = [
     {
         health: 207,
         attack: 153,
-        amount: 2000000
+        amount: 200000
     },
     {
         health: 123,

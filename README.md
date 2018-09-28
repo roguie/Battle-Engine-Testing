@@ -1,5 +1,7 @@
 # Battle-Engine-Testing
 
+[![Build Status](https://semaphoreci.com/api/v1/roguie/battle-engine-testing/branches/master/badge.svg)](https://semaphoreci.com/roguie/battle-engine-testing)
+
 This script is designed to test varying inputs for a battle engine.
 
 The script assumes that the inputs are fully verified before execution, as you would expect in a production environment.

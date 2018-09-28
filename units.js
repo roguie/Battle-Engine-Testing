@@ -1,4 +1,4 @@
-exports.units = [
+exports.aunits = [
 
     {
 
@@ -20,6 +20,21 @@ exports.units = [
         attack: 100,
         amount: 10
 
+    }
+
+]
+
+exports.dunits = [
+
+    {
+        health: 207,
+        attack: 153,
+        amount: 20
+    },
+    {
+        health: 123,
+        attack: 78,
+        amount: 10
     }
 
 ]

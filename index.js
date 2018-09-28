@@ -1,5 +1,6 @@
 /* MODULE IMPORTS */
-const units = require('./units.js').units; // Attackers Units
+const units = require('./units.js').aunits; // Attackers Units
+const enemyUnits = require('./units.js').dunits; // Defenders Units
 const inv = require('./investments.js').investments; // Investments Boosts (think of as Research)
 const arm = require('./armoury.js').armoury; // Armoury Boosts
 
@@ -69,20 +70,6 @@ for (var unit in newUnits) { // Iterate over all units in the newUnits array
 console.log(newUnits); // Log for debugging
 
 /* SIMULATE BATTLE */
-var enemyUnits = [
-
-    {
-        health: 207,
-        attack: 153,
-        amount: 20
-    },
-    {
-        health: 123,
-        attack: 78,
-        amount: 10
-    }
-
-]
 
 var ended = false; // To track if the battle has ended
 

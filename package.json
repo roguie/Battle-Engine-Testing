@@ -1,0 +1,19 @@
+{
+  "name": "battle-engine",
+  "version": "1.0.0",
+  "description": "Simple script to test basic battle mechanics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roguie/Battle-Engine-Testing.git"
+  },
+  "author": "Lewis MacCallum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roguie/Battle-Engine-Testing/issues"
+  },
+  "homepage": "https://github.com/roguie/Battle-Engine-Testing#readme"
+}

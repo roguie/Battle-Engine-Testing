@@ -2,23 +2,23 @@ exports.aunits = [
 
     {
 
-        health: 100,
-        attack: 50,
-        amount: 270000
+        health: Math.random() * 1000,
+        attack: Math.random() * 1000,
+        amount: Math.round(Math.random() * 250000)
 
     },
     {
 
-        health: 80,
-        attack: 120,
-        amount: 130000
+        health: Math.random() * 1000,
+        attack: Math.random() * 1000,
+        amount: Math.round(Math.random() * 250000)
 
     },
     {
 
-        health: 75,
-        attack: 100,
-        amount: 500000
+        health: Math.random() * 1000,
+        attack: Math.random() * 1000,
+        amount: Math.round(Math.random() * 250000)
 
     }
 
@@ -27,14 +27,19 @@ exports.aunits = [
 exports.dunits = [
 
     {
-        health: 207,
-        attack: 153,
-        amount: 200000
+        health: Math.round(Math.random() * 1000),
+        attack: Math.round(Math.random() * 1000),
+        amount: Math.round(Math.random() * 250000)
     },
     {
-        health: 123,
-        attack: 78,
-        amount: 10000
+        health: Math.round(Math.random() * 1000),
+        attack: Math.round(Math.random() * 1000),
+        amount: Math.round(Math.random() * 250000)
+    },
+    {
+        health: Math.round(Math.random() * 1000),
+        attack: Math.round(Math.random() * 1000),
+        amount: Math.round(Math.random() * 250000)
     }
 
 ]

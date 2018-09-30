@@ -3,7 +3,7 @@ const battle = require('./battle.js');
 var attacker = 0;
 var defender = 0;
 
-for(var i = 1; i < 1000001; i++){
+for(var i = 1; i < 100001; i++){
 
     var result = battle.fight();
     if(result.attacker){

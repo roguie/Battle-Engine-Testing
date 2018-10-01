@@ -7,6 +7,7 @@ var defender = 0;
 const units = require('./units/units.js');
 const player = require('./player/player.js');
 const boosts = require('./boosts/index.js');
+const npc = require('./npc/index.js');
 
 var p1 = new player("PlayerOne", 1, 1, 1000);
 
@@ -30,6 +31,10 @@ p2.addArmouryBoosts(new boosts.armoury(new boosts.armoury_item("stick", 0,10),ne
 p2.addInvestmentsBoosts(new boosts.investments(35,40));
 
 console.log(p2);
+
+var PO1 = new npc.police_office(3, 20,20);
+
+console.log(PO1);
 
 // for(var i = 1; i < 101; i++){
 

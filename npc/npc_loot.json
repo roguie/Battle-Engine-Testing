@@ -1,0 +1,162 @@
+[
+    {
+        "loot": [
+            {
+                "name": "Level 1 Loot A"
+            },
+            {
+                "name": "Level 1 Loot B"
+            },
+            {
+                "name": "Level 1 Loot C"
+            },
+            {
+                "name": "Level 1 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 2 Loot A"
+            },
+            {
+                "name": "Level 2 Loot B"
+            },
+            {
+                "name": "Level 2 Loot C"
+            },
+            {
+                "name": "Level 2 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 3 Loot A"
+            },
+            {
+                "name": "Level 3 Loot B"
+            },
+            {
+                "name": "Level 3 Loot C"
+            },
+            {
+                "name": "Level 3 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 4 Loot A"
+            },
+            {
+                "name": "Level 4 Loot B"
+            },
+            {
+                "name": "Level 4 Loot C"
+            },
+            {
+                "name": "Level 4 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 5 Loot A"
+            },
+            {
+                "name": "Level 5 Loot B"
+            },
+            {
+                "name": "Level 5 Loot C"
+            },
+            {
+                "name": "Level 5 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 6 Loot A"
+            },
+            {
+                "name": "Level 6 Loot B"
+            },
+            {
+                "name": "Level 6 Loot C"
+            },
+            {
+                "name": "Level 6 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 7 Loot A"
+            },
+            {
+                "name": "Level 7 Loot B"
+            },
+            {
+                "name": "Level 7 Loot C"
+            },
+            {
+                "name": "Level 7 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 8 Loot A"
+            },
+            {
+                "name": "Level 8 Loot B"
+            },
+            {
+                "name": "Level 8 Loot C"
+            },
+            {
+                "name": "Level 8 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 9 Loot A"
+            },
+            {
+                "name": "Level 9 Loot B"
+            },
+            {
+                "name": "Level 9 Loot C"
+            },
+            {
+                "name": "Level 9 Loot D"
+            }
+        ]
+    },
+    {
+        "loot": [
+            {
+                "name": "Level 10 Loot A"
+            },
+            {
+                "name": "Level 10 Loot B"
+            },
+            {
+                "name": "Level 10 Loot C"
+            },
+            {
+                "name": "Level 10 Loot D"
+            }
+        ]
+    }
+]

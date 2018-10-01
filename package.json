@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/roguie/Battle-Engine-Testing/issues"
   },
-  "homepage": "https://github.com/roguie/Battle-Engine-Testing#readme"
+  "homepage": "https://github.com/roguie/Battle-Engine-Testing#readme",
+  "dependencies": {
+    "cli-progress": "^2.1.0"
+  }
 }
